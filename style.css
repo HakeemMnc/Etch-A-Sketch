@@ -1,0 +1,39 @@
+body {
+  background-color: aquamarine;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+}
+
+.option-container {
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+  gap: 20px;
+}
+
+.grid-container {
+  background-color: brown;
+  min-height: 600px;
+  min-width: 600px;
+}
+
+.color-picker {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.size-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
