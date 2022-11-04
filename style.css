@@ -1,24 +1,28 @@
 body {
-  background-color: aquamarine;
+  background-color: rgb(73, 21, 183);
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
   text-align: center;
+  color: white;
+  font-size: 55px;
 }
 
 .container {
-  background-color: beige;
+  background-color: rgb(73, 21, 183);
   display: flex;
   justify-content: center;
 }
 
 .option-container {
-  background-color: yellow;
+  background-color: rgb(223, 223, 223);
   display: flex;
   flex-direction: column;
   padding: 20px 20px;
   gap: 20px;
+  border-radius: 13px 0px 0px 13px;
 }
 
 .grid-container {
@@ -49,4 +53,17 @@ h1 {
 .cell {
   background-color: white;
   outline: 0.2px solid black;
+}
+
+button {
+  border: none;
+  background-color: rgb(73, 21, 183);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: rgb(57, 18, 142);
 }
