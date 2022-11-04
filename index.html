@@ -14,13 +14,19 @@
       <div class="option-container">
         <div class="color-picker">
           <div>Color picker:</div>
-          <input type="color" />
+          <input id="color-picker" type="color" />
         </div>
         <div class="size-grid">
-          <div>Size of grid:</div>
-          <input type="range" min="16" max="64" />
+          <div>Size of grid: <span id="size-value"></span></div>
+          <input
+            id="size-input"
+            type="range"
+            min="2"
+            max="100"
+            onchange="updateTextInput(this.value);"
+          />
         </div>
-        <button>Clear</button>
+        <button id="clear-button">Clear</button>
       </div>
       <div class="grid-container"></div>
     </div>
